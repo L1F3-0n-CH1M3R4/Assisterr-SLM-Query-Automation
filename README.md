@@ -26,8 +26,8 @@ cd slm-query-automation
 
 ```
 python -m venv .venv
-source .venv/bin/activate ** # For Linux/Mac**
-.\.venv\Scripts\activate  **# For Windows**
+source .venv/bin/activate   #For Linux/Mac
+.\.venv\Scripts\activate    #For Windows
 ```
 
 ## Install dependencies:
