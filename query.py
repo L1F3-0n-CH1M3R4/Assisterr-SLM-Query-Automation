@@ -6,12 +6,13 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Config
-API_KEY = os.getenv("ASSISTERR_API_KEY")  # API
-HANDLE_NAME = "sentie"  # Replace with SLM's handle name
+API_KEY = os.getenv("ASSISTERR_API_KEY")  # APIkey
+HANDLE_NAME = os.getenv("ASSISTERR_HANDLE_NAME")  # Handle name
 API_URL = f"https://api.assisterr.ai/api/v1/slm/{HANDLE_NAME}/chat/" # API URL
 QUERY_FILE = "web3_queries.txt"  # File containing yqueries
 OUTPUT_FILE = "responses.txt"  # File to save the responses
 DELAY_BETWEEN_REQUESTS = 120  # Delay in seconds between requests
+
 
 # Headers for the API request
 headers = {
