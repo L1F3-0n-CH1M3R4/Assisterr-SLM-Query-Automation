@@ -18,7 +18,7 @@ This project automates the process of sending queries to the Sentie Small Langua
 ## Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/slm-query-automation.git
+git clone https://github.com/L1F3-0n-CH1M3R3/slm-query-automation.git
 cd slm-query-automation
 ```
 
