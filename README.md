@@ -43,7 +43,7 @@ Create a .env file in the root directory to store your API key:
 
 **HANDLE_NAME** = "your_handle_name_here"
 
-Update the following variables in the script as needed:
+### Update the following variables in the script as needed:
 
   **QUERY_FILE**: Path to the file containing queries
   
