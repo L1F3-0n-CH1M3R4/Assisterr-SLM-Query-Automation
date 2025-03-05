@@ -19,7 +19,7 @@ This project automates the process of sending queries to the Sentie Small Langua
 
 ```bash
 git clone https://github.com/L1F3-0n-CH1M3R3/Assisterr-SLM-Query-Automation.git
-cd slm-query-automation
+cd Assisterr-SLM-Query-Automation
 ```
 
 ## Set up a virtual environment:
@@ -56,7 +56,7 @@ Place your queries in web3_queries.txt, with each query on a new line or use min
 
 ## Run the script:
 ```bash
-python slm_query.py
+python query.py
 ```
 
 Responses will be saved in **responses.txt**.
