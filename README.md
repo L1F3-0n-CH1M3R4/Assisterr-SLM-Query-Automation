@@ -39,16 +39,17 @@ pip install -r requirements.txt
 
 Create a .env file in the root directory to store your API key:
 
-**API_KEY = "your_api_key_here"**
+**API_KEY** = "your_api_key_here"
 
-**HANDLE_NAME = "your_handle_name_here"**
+**HANDLE_NAME** = "your_handle_name_here"
 
 Update the following variables in the script as needed:
-  QUERY_FILE: Path to the file containing queries
+
+  **QUERY_FILE**: Path to the file containing queries
   
-  OUTPUT_FILE: Path to the file where responses will be saved
+  **OUTPUT_FILE!**: Path to the file where responses will be saved
   
-  DELAY_BETWEEN_REQUESTS: Delay time between API requests (in seconds)
+  **DELAY_BETWEEN_REQUESTS**: Delay time between API requests (in seconds)
   
 ## Usage
 
